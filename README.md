@@ -34,3 +34,8 @@ npm run android
 ## About
 
 This project is a learning example to practice Reanimated animations and gesture-driven UI in React Native.
+
+## Tribute
+
+This React Native Reanimated gallery example is inspired by and built with guidance from [Catalin Miron](https://www.youtube.com/@CatalinMironDev).  
+Thank you, Catalin, for your clear tutorials and valuable insights!
