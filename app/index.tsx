@@ -1,15 +1,13 @@
-import { Text, View } from "react-native";
-
+import { View } from "react-native";
+import { CircularSlider } from "./CircularSlider";
 export default function Index() {
   return (
     <View
       style={{
-        flex: 1,
-        justifyContent: "center",
-        alignItems: "center",
+        flex: 1
       }}
     >
-      <Text>Edit app/index.tsx to edit this screen.</Text>
+      <CircularSlider />
     </View>
   );
 }
