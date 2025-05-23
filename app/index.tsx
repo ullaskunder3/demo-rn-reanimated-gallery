@@ -1,15 +1,16 @@
 import { View } from "react-native";
 import { GestureHandlerRootView } from "react-native-gesture-handler";
-import InviteSlider from "./InviteSlider";
+import CircularSlider from "./CircularSlider";
 export default function Index() {
   return (
     <View
       style={{
-        flex: 1
+        flex: 1,
       }}
     >
       <GestureHandlerRootView style={{ flex: 1 }}>
-        <InviteSlider />
+        {/* <InviteSlider /> */}
+        <CircularSlider />
       </GestureHandlerRootView>
     </View>
   );
