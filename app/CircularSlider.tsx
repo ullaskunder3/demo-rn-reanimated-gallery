@@ -13,7 +13,7 @@ const _itemSize = width * 0.24;
 const _spacing = 12;
 const _itemTotalSize = _itemSize + _spacing
 
-export function CircularSlider() {
+function CircularSlider() {
     const [activeImage, setActiveImage] = useState(0)
     const scrollX = useSharedValue(0);
     const onScroll = useAnimatedScrollHandler(e => {
@@ -92,3 +92,5 @@ function CarosalItem({ imageUrl, index, scorllX }: { imageUrl: string; index: nu
         </Animated.View>
     );
 }
+
+export default CircularSlider
